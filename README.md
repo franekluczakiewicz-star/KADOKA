@@ -1,6 +1,6 @@
-# KADOKA — strona internetowa
+# KADOKA i Ogrody Liska
 
-Nowoczesna strona firmowa usług ogrodniczych **KADOKA** (Orzesze).
+Nowoczesna strona firmowa usług ogrodniczych **KADOKA** / **Ogrody Liska** (Orzesze).
 
 ## Uruchomienie
 
