@@ -2,6 +2,7 @@ import { company } from '../data/content'
 
 const HERO_IMAGE =
   'https://images.unsplash.com/photo-1558904541-efa843a96f01?auto=format&fit=crop&w=2000&q=80'
+const logoSrc = `${import.meta.env.BASE_URL}logo-on-white.png`
 
 export default function Hero() {
   return (
@@ -19,14 +20,12 @@ export default function Hero() {
       <div className="relative wrap flex min-h-[100svh] flex-col justify-end pb-16 pt-28 md:justify-center md:pb-24 md:pt-20">
         <div className="max-w-2xl text-white">
           <img
-            src="/logo-on-white.png"
+            src={logoSrc}
             alt="Logo KadoKa — Twój zielony ogród"
             className="h-28 sm:h-32 md:h-40 w-auto rounded-md opacity-0 animate-fade-up"
             style={{ animationDelay: '0.05s', animationFillMode: 'forwards' }}
           />
-          <h1
-            className="sr-only"
-          >
+          <h1 className="sr-only">
             KadoKa — {company.tagline}
           </h1>
           <p

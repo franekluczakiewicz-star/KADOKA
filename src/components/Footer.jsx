@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="wrap py-12 md:py-16 flex flex-col gap-8 md:flex-row md:items-end md:justify-between">
         <div>
           <img
-            src="/logo-on-white.png"
+            src={`${import.meta.env.BASE_URL}logo-on-white.png`}
             alt="Logo KadoKa — Twój zielony ogród"
             className="h-16 w-auto rounded-sm"
           />

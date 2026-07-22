@@ -1,6 +1,12 @@
 # KADOKA
 
+<p align="center">
+  <img src="public/logo-on-white.png" alt="Logo KadoKa — Twój zielony ogród" width="280" />
+</p>
+
 Nowoczesna strona firmowa usług ogrodniczych **KADOKA** (Śląsk).
+
+**Strona:** https://franekluczakiewicz-star.github.io/KADOKA/
 
 ## Uruchomienie
 
@@ -18,7 +24,7 @@ npm run preview
 
 ## Zawartość
 
-- Hero z pełnoekranowym zdjęciem ogrodu
+- Hero z logo firmy i pełnoekranowym zdjęciem ogrodu
 - Profil firmy
 - Zakres usług (PKD 8130Z)
 - Realizacje / portfolio

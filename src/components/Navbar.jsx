@@ -38,7 +38,11 @@ export default function Navbar() {
       <div className="wrap flex h-16 md:h-20 items-center justify-between">
         <a href="#top" className="inline-flex items-center" aria-label="KADOKA — strona główna">
           <img
-            src={scrolled || open ? '/logo.png' : '/logo-on-white.png'}
+            src={
+              scrolled || open
+                ? `${import.meta.env.BASE_URL}logo.png`
+                : `${import.meta.env.BASE_URL}logo-on-white.png`
+            }
             alt="Logo KadoKa — Twój zielony ogród"
             className={`w-auto ${scrolled || open ? 'h-11 md:h-12' : 'h-12 md:h-14 rounded-sm'}`}
           />
