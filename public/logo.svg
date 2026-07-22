@@ -1,25 +1,30 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 120" fill="none" role="img" aria-label="KadoKa — Twój zielony ogród">
-  <!-- Plant icon -->
-  <g transform="translate(112, 2)">
-    <!-- left leaf -->
-    <ellipse cx="12" cy="22" rx="11" ry="16" fill="#2F7D4A" transform="rotate(-28 12 22)"/>
-    <!-- right leaf -->
-    <ellipse cx="44" cy="22" rx="11" ry="16" fill="#2F7D4A" transform="rotate(28 44 22)"/>
-    <!-- center leaf -->
-    <ellipse cx="28" cy="14" rx="10" ry="18" fill="#3B9458"/>
-    <!-- stems -->
-    <path d="M28 30 C28 38 28 42 28 48" stroke="#5A4632" stroke-width="2.2" stroke-linecap="round"/>
-    <path d="M20 28 C24 34 26 38 28 42" stroke="#5A4632" stroke-width="1.6" stroke-linecap="round"/>
-    <path d="M36 28 C32 34 30 38 28 42" stroke="#5A4632" stroke-width="1.6" stroke-linecap="round"/>
-    <!-- pot -->
-    <path d="M14 48 H42 L39 62 H17 Z" fill="#8B6A45"/>
-    <rect x="12" y="45" width="32" height="5" rx="1.5" fill="#A07A52"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 130" fill="none" role="img" aria-label="KadoKa — Twój zielony ogród">
+  <!-- Trowel + small leaves icon -->
+  <g transform="translate(118, 4)">
+    <!-- small left leaf -->
+    <ellipse cx="10" cy="18" rx="5.5" ry="9" fill="#2F7D4A" transform="rotate(-38 10 18)"/>
+    <!-- small right leaf -->
+    <ellipse cx="34" cy="18" rx="5.5" ry="9" fill="#2F7D4A" transform="rotate(38 34 18)"/>
+    <!-- tiny top leaf -->
+    <ellipse cx="22" cy="10" rx="4.5" ry="8" fill="#3B9458"/>
+
+    <!-- stems into trowel -->
+    <path d="M22 16 V34" stroke="#5A4632" stroke-width="1.6" stroke-linecap="round"/>
+    <path d="M14 20 C17 26 20 30 22 34" stroke="#5A4632" stroke-width="1.2" stroke-linecap="round"/>
+    <path d="M30 20 C27 26 24 30 22 34" stroke="#5A4632" stroke-width="1.2" stroke-linecap="round"/>
+
+    <!-- trowel handle -->
+    <rect x="19.5" y="34" width="5" height="14" rx="1.5" fill="#8B6A45"/>
+    <!-- trowel ferrule -->
+    <rect x="17.5" y="46" width="9" height="4" rx="1" fill="#A07A52"/>
+    <!-- trowel blade (łopatka) -->
+    <path d="M12 50 H32 C32 50 33 58 30 66 C27 72 22 76 22 76 C22 76 17 72 14 66 C11 58 12 50 12 50Z" fill="#9AA3A8"/>
+    <path d="M16 52 H28" stroke="#B8C0C4" stroke-width="1.2" stroke-linecap="round"/>
   </g>
 
-  <!-- Wordmark -->
   <text
     x="140"
-    y="88"
+    y="100"
     text-anchor="middle"
     fill="#1A1A1A"
     font-family="Georgia, 'Times New Roman', serif"
@@ -28,10 +33,9 @@
     letter-spacing="0.5"
   >KadoKa</text>
 
-  <!-- Tagline -->
   <text
     x="140"
-    y="108"
+    y="120"
     text-anchor="middle"
     fill="#4A4A4A"
     font-family="Arial, Helvetica, sans-serif"
