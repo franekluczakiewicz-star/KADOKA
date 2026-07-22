@@ -1,6 +1,6 @@
-# KADOKA I OGRODY LISKA
+# KADOKA
 
-Nowoczesna strona firmowa usług ogrodniczych **KADOKA I OGRODY LISKA** (Orzesze).
+Nowoczesna strona firmowa usług ogrodniczych **KADOKA** (Śląsk).
 
 ## Uruchomienie
 

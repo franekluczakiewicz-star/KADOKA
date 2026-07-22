@@ -43,8 +43,7 @@ export default function Navbar() {
           }`}
           style={{ fontWeight: 800 }}
         >
-          <span className="md:hidden">{company.name}</span>
-          <span className="hidden md:inline">{company.brandName}</span>
+          {company.name}
         </a>
 
         <nav className="hidden md:flex items-center gap-8">

@@ -1,6 +1,5 @@
 export const company = {
   name: 'KADOKA',
-  brandName: 'KADOKA I OGRODY LISKA',
   fullName: 'KADOKA Krzysztof Kamiński',
   owner: 'Krzysztof Sławomir Kamiński',
   tagline: 'Ogrody zaprojektowane i pielęgnowane z dbałością o detale',
