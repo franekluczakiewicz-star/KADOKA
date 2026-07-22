@@ -20,26 +20,25 @@ export default function Hero() {
         <div className="max-w-2xl text-white">
           <img
             src="/logo-light.svg"
-            alt="Logo KADOKA"
-            className="h-16 sm:h-20 md:h-24 w-auto opacity-0 animate-fade-up"
+            alt="Logo KadoKa — Twój zielony ogród"
+            className="h-24 sm:h-28 md:h-32 w-auto opacity-0 animate-fade-up"
             style={{ animationDelay: '0.05s', animationFillMode: 'forwards' }}
           />
           <h1
-            className="mt-6 max-w-xl text-2xl sm:text-3xl md:text-4xl font-medium leading-tight text-white/95 opacity-0 animate-fade-up"
-            style={{ animationDelay: '0.2s', animationFillMode: 'forwards' }}
+            className="sr-only"
           >
-            {company.tagline}
+            KadoKa — {company.tagline}
           </h1>
           <p
-            className="mt-4 max-w-md text-base md:text-lg text-white/80 opacity-0 animate-fade-up"
-            style={{ animationDelay: '0.35s', animationFillMode: 'forwards' }}
+            className="mt-6 max-w-md text-base md:text-lg text-white/80 opacity-0 animate-fade-up"
+            style={{ animationDelay: '0.25s', animationFillMode: 'forwards' }}
           >
             Usługi ogrodnicze na Śląsku — terminowo, zgodnie z ustaleniami,
             z doradztwem na każdym etapie.
           </p>
           <div
             className="mt-8 flex flex-wrap gap-3 opacity-0 animate-fade-up"
-            style={{ animationDelay: '0.5s', animationFillMode: 'forwards' }}
+            style={{ animationDelay: '0.4s', animationFillMode: 'forwards' }}
           >
             <a href={company.phoneHref} className="btn-primary bg-white text-leaf-900 hover:bg-leaf-100">
               Zadzwoń {company.phone}

@@ -39,8 +39,8 @@ export default function Navbar() {
         <a href="#top" className="inline-flex items-center" aria-label="KADOKA — strona główna">
           <img
             src={scrolled || open ? '/logo-dark.svg' : '/logo-light.svg'}
-            alt="Logo KADOKA"
-            className="h-8 md:h-10 w-auto"
+            alt="Logo KadoKa — Twój zielony ogród"
+            className="h-10 md:h-12 w-auto"
           />
         </a>
 

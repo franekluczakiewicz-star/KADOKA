@@ -1,31 +1,42 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 88" fill="none" role="img" aria-label="KADOKA">
-  <!-- Leaf mark -->
-  <path
-    d="M44 8C28 26 18 40 18 54a26 26 0 1 0 52 0C70 40 60 26 44 8Z"
-    fill="currentColor"
-    opacity="0.92"
-  />
-  <path
-    d="M44 34v36"
-    stroke="#0f2a1c"
-    stroke-width="4"
-    stroke-linecap="round"
-  />
-  <path
-    d="M44 46c8 4 14 10 16 18"
-    stroke="#0f2a1c"
-    stroke-width="3"
-    stroke-linecap="round"
-    opacity="0.55"
-  />
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 120" fill="none" role="img" aria-label="KadoKa — Twój zielony ogród">
+  <!-- Plant icon -->
+  <g transform="translate(112, 2)">
+    <!-- left leaf -->
+    <ellipse cx="12" cy="22" rx="11" ry="16" fill="#2F7D4A" transform="rotate(-28 12 22)"/>
+    <!-- right leaf -->
+    <ellipse cx="44" cy="22" rx="11" ry="16" fill="#2F7D4A" transform="rotate(28 44 22)"/>
+    <!-- center leaf -->
+    <ellipse cx="28" cy="14" rx="10" ry="18" fill="#3B9458"/>
+    <!-- stems -->
+    <path d="M28 30 C28 38 28 42 28 48" stroke="#5A4632" stroke-width="2.2" stroke-linecap="round"/>
+    <path d="M20 28 C24 34 26 38 28 42" stroke="#5A4632" stroke-width="1.6" stroke-linecap="round"/>
+    <path d="M36 28 C32 34 30 38 28 42" stroke="#5A4632" stroke-width="1.6" stroke-linecap="round"/>
+    <!-- pot -->
+    <path d="M14 48 H42 L39 62 H17 Z" fill="#8B6A45"/>
+    <rect x="12" y="45" width="32" height="5" rx="1.5" fill="#A07A52"/>
+  </g>
+
   <!-- Wordmark -->
   <text
-    x="92"
-    y="58"
-    fill="currentColor"
-    font-family="Syne, Arial Black, Arial, sans-serif"
-    font-size="42"
-    font-weight="800"
-    letter-spacing="2"
-  >KADOKA</text>
+    x="140"
+    y="88"
+    text-anchor="middle"
+    fill="#1A1A1A"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-size="34"
+    font-weight="700"
+    letter-spacing="0.5"
+  >KadoKa</text>
+
+  <!-- Tagline -->
+  <text
+    x="140"
+    y="108"
+    text-anchor="middle"
+    fill="#4A4A4A"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="10"
+    font-weight="600"
+    letter-spacing="2.5"
+  >TWÓJ ZIELONY OGRÓD</text>
 </svg>

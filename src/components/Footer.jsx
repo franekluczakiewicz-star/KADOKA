@@ -7,8 +7,8 @@ export default function Footer() {
         <div>
           <img
             src="/logo-light.svg"
-            alt="Logo KADOKA"
-            className="h-10 w-auto"
+            alt="Logo KadoKa — Twój zielony ogród"
+            className="h-14 w-auto"
           />
           <p className="mt-2 text-leaf-200/80">{company.fullName}</p>
           <p className="mt-1 text-sm text-leaf-300/70">{company.address}</p>

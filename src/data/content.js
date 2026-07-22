@@ -2,7 +2,7 @@ export const company = {
   name: 'KADOKA',
   fullName: 'KADOKA Krzysztof Kamiński',
   owner: 'Krzysztof Sławomir Kamiński',
-  tagline: 'Ogrody zaprojektowane i pielęgnowane z dbałością o detale',
+  tagline: 'TWÓJ ZIELONY OGRÓD',
   address: 'ul. Spacerowa 18, 43-180 Orzesze, woj. śląskie',
   nip: '635-187-05-57',
   regon: '528303157',
