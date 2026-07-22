@@ -22,7 +22,7 @@ export default function Hero() {
             className="font-display text-4xl sm:text-5xl md:text-6xl lg:text-7xl tracking-tight opacity-0 animate-fade-up"
             style={{ fontWeight: 800, animationDelay: '0.05s', animationFillMode: 'forwards' }}
           >
-            {company.brandName}
+            {company.name}
           </p>
           <h1
             className="mt-5 max-w-xl text-2xl sm:text-3xl md:text-4xl font-medium leading-tight text-white/95 opacity-0 animate-fade-up"
