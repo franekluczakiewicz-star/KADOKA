@@ -6,9 +6,9 @@ export default function Footer() {
       <div className="wrap py-12 md:py-16 flex flex-col gap-8 md:flex-row md:items-end md:justify-between">
         <div>
           <img
-            src="/logo-light.svg"
+            src="/logo-on-white.png"
             alt="Logo KadoKa — Twój zielony ogród"
-            className="h-14 w-auto"
+            className="h-16 w-auto rounded-sm"
           />
           <p className="mt-2 text-leaf-200/80">{company.fullName}</p>
           <p className="mt-1 text-sm text-leaf-300/70">{company.address}</p>

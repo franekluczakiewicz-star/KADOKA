@@ -19,9 +19,9 @@ export default function Hero() {
       <div className="relative wrap flex min-h-[100svh] flex-col justify-end pb-16 pt-28 md:justify-center md:pb-24 md:pt-20">
         <div className="max-w-2xl text-white">
           <img
-            src="/logo-light.svg"
+            src="/logo-on-white.png"
             alt="Logo KadoKa — Twój zielony ogród"
-            className="h-24 sm:h-28 md:h-32 w-auto opacity-0 animate-fade-up"
+            className="h-28 sm:h-32 md:h-40 w-auto rounded-md opacity-0 animate-fade-up"
             style={{ animationDelay: '0.05s', animationFillMode: 'forwards' }}
           />
           <h1
