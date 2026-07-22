@@ -38,12 +38,13 @@ export default function Navbar() {
       <div className="wrap flex h-16 md:h-20 items-center justify-between">
         <a
           href="#top"
-          className={`font-display text-xl md:text-2xl tracking-tight transition-colors ${
+          className={`font-display text-lg md:text-xl tracking-tight transition-colors ${
             scrolled || open ? 'text-leaf-800' : 'text-white'
           }`}
           style={{ fontWeight: 800 }}
         >
-          {company.name}
+          <span className="md:hidden">{company.name}</span>
+          <span className="hidden md:inline">{company.brandName}</span>
         </a>
 
         <nav className="hidden md:flex items-center gap-8">

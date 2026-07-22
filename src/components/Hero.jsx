@@ -19,10 +19,10 @@ export default function Hero() {
       <div className="relative wrap flex min-h-[100svh] flex-col justify-end pb-16 pt-28 md:justify-center md:pb-24 md:pt-20">
         <div className="max-w-2xl text-white">
           <p
-            className="font-display text-5xl sm:text-6xl md:text-7xl lg:text-8xl tracking-tight opacity-0 animate-fade-up"
+            className="font-display text-4xl sm:text-5xl md:text-6xl lg:text-7xl tracking-tight opacity-0 animate-fade-up"
             style={{ fontWeight: 800, animationDelay: '0.05s', animationFillMode: 'forwards' }}
           >
-            {company.name}
+            {company.brandName}
           </p>
           <h1
             className="mt-5 max-w-xl text-2xl sm:text-3xl md:text-4xl font-medium leading-tight text-white/95 opacity-0 animate-fade-up"
