@@ -5,12 +5,11 @@ export default function Footer() {
     <footer className="bg-leaf-900 text-leaf-100">
       <div className="wrap py-12 md:py-16 flex flex-col gap-8 md:flex-row md:items-end md:justify-between">
         <div>
-          <p
-            className="font-display text-3xl text-white"
-            style={{ fontWeight: 800 }}
-          >
-            {company.name}
-          </p>
+          <img
+            src="/logo-light.svg"
+            alt="Logo KADOKA"
+            className="h-10 w-auto"
+          />
           <p className="mt-2 text-leaf-200/80">{company.fullName}</p>
           <p className="mt-1 text-sm text-leaf-300/70">{company.address}</p>
         </div>

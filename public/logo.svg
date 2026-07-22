@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 88" fill="none" role="img" aria-label="KADOKA">
+  <!-- Leaf mark -->
+  <path
+    d="M44 8C28 26 18 40 18 54a26 26 0 1 0 52 0C70 40 60 26 44 8Z"
+    fill="currentColor"
+    opacity="0.92"
+  />
+  <path
+    d="M44 34v36"
+    stroke="#0f2a1c"
+    stroke-width="4"
+    stroke-linecap="round"
+  />
+  <path
+    d="M44 46c8 4 14 10 16 18"
+    stroke="#0f2a1c"
+    stroke-width="3"
+    stroke-linecap="round"
+    opacity="0.55"
+  />
+  <!-- Wordmark -->
+  <text
+    x="92"
+    y="58"
+    fill="currentColor"
+    font-family="Syne, Arial Black, Arial, sans-serif"
+    font-size="42"
+    font-weight="800"
+    letter-spacing="2"
+  >KADOKA</text>
+</svg>

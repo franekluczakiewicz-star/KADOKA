@@ -36,14 +36,12 @@ export default function Navbar() {
       }`}
     >
       <div className="wrap flex h-16 md:h-20 items-center justify-between">
-        <a
-          href="#top"
-          className={`font-display text-lg md:text-xl tracking-tight transition-colors ${
-            scrolled || open ? 'text-leaf-800' : 'text-white'
-          }`}
-          style={{ fontWeight: 800 }}
-        >
-          {company.name}
+        <a href="#top" className="inline-flex items-center" aria-label="KADOKA — strona główna">
+          <img
+            src={scrolled || open ? '/logo-dark.svg' : '/logo-light.svg'}
+            alt="Logo KADOKA"
+            className="h-8 md:h-10 w-auto"
+          />
         </a>
 
         <nav className="hidden md:flex items-center gap-8">
