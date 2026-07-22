@@ -29,7 +29,7 @@ export default function Footer() {
       <div className="border-t border-white/10">
         <div className="wrap py-4 text-xs text-leaf-300/50 flex flex-wrap justify-between gap-2">
           <span>© {new Date().getFullYear()} {company.name}</span>
-          <span>Usługi ogrodnicze · Orzesze</span>
+          <span>Usługi ogrodnicze · Śląsk</span>
           <span>Praca została wykonana przez Franek Łuczakiewicz</span>
         </div>
       </div>

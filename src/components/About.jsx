@@ -7,7 +7,7 @@ export default function About() {
             O firmie
           </p>
           <h2 className="mt-3 font-display text-4xl md:text-5xl text-leaf-900 leading-[1.05]" style={{ fontWeight: 700 }}>
-            Lokalna pracownia zieleni z Orzesza
+            Lokalna pracownia zieleni na Śląsku
           </h2>
         </div>
         <div className="md:col-span-7 reveal" style={{ transitionDelay: '80ms' }}>

@@ -34,7 +34,7 @@ export default function Hero() {
             className="mt-4 max-w-md text-base md:text-lg text-white/80 opacity-0 animate-fade-up"
             style={{ animationDelay: '0.35s', animationFillMode: 'forwards' }}
           >
-            Usługi ogrodnicze w Orzeszu i okolicach — terminowo, zgodnie z ustaleniami,
+            Usługi ogrodnicze na Śląsku — terminowo, zgodnie z ustaleniami,
             z doradztwem na każdym etapie.
           </p>
           <div
